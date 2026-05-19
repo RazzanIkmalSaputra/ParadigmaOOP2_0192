@@ -1,5 +1,4 @@
 
-    void potongAdmin() override {
-        // bebas biaya administrasi
+    string jenis() const override {
+        return "Rekening Syariah";
     }
- 
