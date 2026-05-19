@@ -1,13 +1,7 @@
 
 
-class baseClass1 {
+
 public:
-    virtual void perkenalan() {
-        cout << "Halo saya Function dari base class" << endl;
+    void perkenalan() override {
+        cout << "Halo saya Function dari derived Class" << endl;
     }
-};
-
-class derivedClass : public baseClass1 {
-
-};
-
