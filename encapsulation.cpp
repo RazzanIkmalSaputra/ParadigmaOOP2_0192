@@ -1,15 +1,13 @@
 
 
-public:
-    void setSaklarNo(int i, string value) {
-        if (i >= 0 && i < 10) {
-            saklarNo[i] = value;
-        }
-    }
+int main() {
+    remoteLampu lampuRumah;
 
-    string getSaklarNo(int i) {
-        if (i >= 0 && i < 10) {
-            return saklarNo[i];
-        }
-        return "Index di luar jangkauan";
-    }
+    lampuRumah.setSaklarNo(0, "Lampu Teras Rumah");
+    lampuRumah.setSaklarNo(1, "Lampu Ruang Tamu");
+    lampuRumah.setSaklarNo(2, "Lampu Kamar Tidur");
+    lampuRumah.setSaklarNo(3, "Lampu Dapur");
+
+
+    return 0;
+}
