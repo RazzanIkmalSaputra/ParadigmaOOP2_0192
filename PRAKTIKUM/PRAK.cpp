@@ -1,9 +1,6 @@
 
-
-class RekeningKonvensional : public RekeningBank {
-public:
-    static const long long BIAYA_ADMIN = 15000;
-    RekeningKonvensional(long long awalSaldo) : RekeningBank(awalSaldo) {}
-    
-};
-
+    void potongAdmin() override {
+        saldo -= BIAYA_ADMIN;
+        if (saldo < 0) saldo = 0;
+    }
+   
