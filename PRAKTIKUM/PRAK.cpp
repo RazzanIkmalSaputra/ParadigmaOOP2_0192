@@ -1,11 +1,7 @@
-#include <iostream>
-#include <string>
 
-using namespace std;
-
-int main() 
+class RekeningBank 
+protected:
+    long long saldo;
+public:
+    RekeningBank(long long awalSaldo) : saldo(awalSaldo) {}
    
-    return 0;
-
-
-
