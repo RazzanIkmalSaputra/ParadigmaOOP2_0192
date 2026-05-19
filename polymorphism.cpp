@@ -1,10 +1,9 @@
-#include <iostream>
 
-using namespace std;
 
-class seseorang {
+class joko : public seseorang {
 public:
-    // Pure virtual function (membuat class ini menjadi Abstract Class)
-    virtual void pesan() = 0; 
+    void pesan() override {
+        cout << "Pesan dari joko" << endl;
+    }
 };
 
