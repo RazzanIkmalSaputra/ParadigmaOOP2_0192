@@ -1,12 +1,13 @@
-#include <iostream>
 
-using namespace std;
 
-// Class ini tidak bisa dijadikan parent/base class karena menggunakan 'final'
-class baseClass final {
+class baseClass1 {
 public:
     virtual void perkenalan() {
-        cout << "Halo saya Function dari base class";
+        cout << "Halo saya Function dari base class" << endl;
     }
+};
+
+class derivedClass : public baseClass1 {
+
 };
 
