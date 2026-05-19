@@ -1,7 +1,7 @@
 
+int main() {
+    derivedClass a;
+    a.perkenalan();
 
-
-public:
-    void perkenalan() override {
-        cout << "Halo saya Function dari derived Class" << endl;
-    }
+    return 0;
+}
