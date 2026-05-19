@@ -1,9 +1,9 @@
 
 
-class joko : public seseorang {
+class lia : public seseorang {
 public:
     void pesan() override {
-        cout << "Pesan dari joko" << endl;
+        cout << "Pesan dari lia" << endl;
     }
 };
 
