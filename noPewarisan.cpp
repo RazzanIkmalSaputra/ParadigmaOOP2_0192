@@ -10,23 +10,3 @@ public:
     }
 };
 
-class baseClass1 {
-public:
-    virtual void perkenalan() {
-        cout << "Halo saya Function dari base class" << endl;
-    }
-};
-
-class derivedClass : public baseClass1 {
-public:
-    void perkenalan() override {
-        cout << "Halo saya Function dari derived Class" << endl;
-    }
-};
-
-int main() {
-    derivedClass a;
-    a.perkenalan();
-
-    return 0;
-}
