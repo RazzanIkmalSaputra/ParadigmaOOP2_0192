@@ -1,6 +1,5 @@
 
-    void potongAdmin() override {
-        saldo -= BIAYA_ADMIN;
-        if (saldo < 0) saldo = 0;
+    
+    string jenis() const override {
+        return "Rekening Konvensional";
     }
-   
